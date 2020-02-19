@@ -16,7 +16,7 @@ class Student
   end
   
   def self.drop_table
-    sql = ""
+    sql = "DROP TABLE"
   end
   
   def save
