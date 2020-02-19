@@ -21,7 +21,7 @@ class Student
   end
   
   def save
-    sql = "INSERT INTO students (name, grade);"
+    sql = "INSERT INTO students (name, grade) VALUES (?, ?);"
   end
   
   def self.create
